@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="myprofile.css">
+</head>
+<body>
+    <div class="profile-container">
+        <button onclick="window.location.href='/home.html'" class="back-home-btn">Back to Home</button>
+        <div class="profile-sidebar">
+            <!-- Image will be loaded here -->
+            <img id="profileImage" src="av.png" alt="Profile Picture" class="profile-image">
+            <!-- User's name will be loaded here -->
+            <h2 id="userName"></h2>
+            <button onclick="window.location.href = '/profile.html'" id="editProfileBtn" class="edit-profile-btn">Edit Profile</button>
+        </div>
+        <div class="profile-main">
+            <!-- Bio will be loaded here -->
+            <h3 class="bio-header">Bio</h3>
+            <div id="userBio" class="bio"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
