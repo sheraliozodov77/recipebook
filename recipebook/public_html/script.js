@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => {
           console.error('Error:', error);
-          alert('An error occurred while posting the recipe.');
+          alert('An error occurred while posting the recipe.' + error);
         });
       });
     }
