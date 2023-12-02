@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules/
+
+# NPM lock file
+package-lock.json
+
+# Package configuration
+package.json
+
+profile_uploads/
+
+recipe_uploads/

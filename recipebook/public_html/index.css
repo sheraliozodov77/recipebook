@@ -1,0 +1,309 @@
+/* Reset some default styles */
+body {
+	font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('landing2.png') no-repeat center center/cover;
+  position: relative;
+  color: white;
+  height: 900px;
+}
+
+/* Header container */
+.header-container {
+  position: relative;
+  height: 800px;
+  font-size: 20px;
+  padding: 50px;
+}
+
+/* Header content */
+.header-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Branding style */
+.branding h1 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation styles */
+.navigation {
+  display: flex;
+}
+
+.navigation a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  color: #e74c3c; 
+}
+
+/* Button styles */
+.button-free-trial, .button-explore {
+  background-color: white;
+  color: #e74c3c; 
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 10px 4px 25px 5px rgba(245, 245, 245, 0.2);
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.button-free-trial:hover, .button-explore:hover {
+  background-color: #c0392b; 
+  color: white; 
+  border-color: #c0392b; 
+}
+
+/* Header slogan styles */
+.header-slogan {
+  text-align: left;
+  margin-top: 380px;
+  padding-left: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Darkened overlay on the background image */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/* Feast class styles */
+.feast {
+  font-size: 40px;
+}
+
+/* Stats section styles */
+.stats-section {
+  background-color: #c0392b;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Stats container styles */
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Stat styles */
+.stat {
+  flex: 1;
+  padding: 10px;
+}
+
+.stat h4 {
+  font-size: 26px;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Styles for the "FAQs" section */
+.faqs {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  border-top: 2px solid #e74c3c;
+  border-bottom: 2px solid #e74c3c;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+/* Style for each FAQ item */
+.faq {
+  max-width: 300px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.faq-title {
+  text-align: center;
+  padding-left: 600px;
+  padding-right: 600px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.faq:hover {
+  transform: scale(1.05); 
+}
+
+.faq h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #e74c3c;
+  font-family: 'Your Custom Font', sans-serif; 
+}
+
+.faq p {
+  font-size: 18px;
+  color: #666;
+  font-family: 'Your Custom Font', sans-serif; 
+}
+
+/* Style for the "Explore More" button */
+.explore-more-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.explore-more-button .button-explore {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.explore-more-button .button-explore:hover {
+  background-color: #c0392b;
+}
+
+/* Styles for the "Discover Section" */
+.discover-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  border-top: 2px solid #e74c3c;
+  border-bottom: 2px solid #e74c3c;
+}
+
+.discover-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discover-left {
+  flex: 1;
+  text-align: left;
+  padding-left: 200px;
+}
+
+.discover-left h2 {
+  font-size: 30px;
+  color: #e74c3c;
+  padding-bottom: 10px;
+}
+
+.discover-left p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.discover-left ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.discover-left li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.discover-left li::before {
+  content: "✓ ";
+  color: #e74c3c;
+}
+
+.discover-right {
+  flex: 1;
+  text-align: center;
+}
+
+/* Style for the image container */
+.image-container {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image-container img {
+  max-width: 100%;
+  border-radius: 20px; 
+}
+
+/* Footer styles */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #e74c3c; 
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links ul li {
+  margin: 0 15px; 
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #e74c3c; 
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #ccc;
+}

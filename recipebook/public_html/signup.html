@@ -1,0 +1,51 @@
+<!-- 
+ * Author: Igor Gabriel Bezerra Bernardon, John Ko, Khamdam Kadirov, Sherali Ozodov
+ * Date: 11/30/2023
+ * Class: CSC 337
+ * Instructor: Benjamin Dicken
+ *
+ * Description: 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Receipe Book</title>
+<link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+
+<div class="signup-container">
+    <div class="graphics-section">       
+    </div>
+    <div class="form-section">
+        <div class="form-header">
+            <h1>Let's Get Started</h1>
+            <p class="signup-intro">Sign Up and get access to all the features of Receipe Book</p>
+        </div>
+        <div class="form-inner">
+            <form id="createForm">
+                <label for="usernameCreate" class="input-label">Username</label>
+                <input type="text" id="usernameCreate" placeholder="Enter your username" class="signup-input">
+
+                <!-- New fields for First Name and Last Name -->
+                <label for="firstNameCreate" class="input-label">First Name</label>
+                <input type="text" id="firstNameCreate" placeholder="Enter your first name" class="signup-input">
+
+                <label for="lastNameCreate" class="input-label">Last Name</label>
+                <input type="text" id="lastNameCreate" placeholder="Enter your last name" class="signup-input">
+
+                <label for="passwordCreate" class="input-label">Password</label>
+                <input type="password" id="passwordCreate" placeholder="Enter your password" class="signup-input">
+
+                <button type="submit" class="signup-btn">Sign Up</button>
+                <p class="signin-link">Already a member ? <a href="./signin.html">Sign In</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

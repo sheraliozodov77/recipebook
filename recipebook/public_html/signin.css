@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 0;
+}
+
+body, html {
+    height: 100%;
+    margin-top: 60px;
+    font-family: Arial, sans-serif;
+    background: rgb(225, 214, 200);
+}
+
+.signin-container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    height: 600px;
+    position: relative;
+    background: #fff;
+    box-shadow: 7px 7px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.graphics-section {
+    flex: 1;
+    background: url('signin.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.form-section {
+    flex: 1;
+    background: rgba(6, 86, 234, 0.894);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    color: #fff;
+}
+
+.form-header {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form-header h1 {
+    font-size: 5px;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-inner {
+    width: 100%;
+    padding-bottom: 75px;
+}
+
+#userForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-label {
+    align-self: flex-start;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.signin-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: none;
+}
+
+
+.signin-btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 9px;
+    background-color: #fff;
+    color: #5648c9;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+
+.signin-btn:hover, .signin-btn:focus {
+    background-color: rgb(15, 173, 235);
+}
+
+.signup-link {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.signup-link a {
+    color: #aad1ff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
